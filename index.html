@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ASCII Art</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Archivo:wght@600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>ASCII Art</h1>
+    <p>Text → banner · density · copy</p>
+  </header>
+  <main>
+    <div class="row">
+      <input id="text" value="JULIANA" maxlength="12" />
+      <select id="style">
+        <option value="block">Block</option>
+        <option value="slim">Slim</option>
+        <option value="dots">Dots</option>
+      </select>
+      <button type="button" id="go" class="accent">Render</button>
+      <button type="button" id="copy">Copy</button>
+    </div>
+    <pre id="out" class="out"></pre>
+  </main>
+  <footer>Crafted by <strong>Juliana Chantre Astudillo</strong></footer>
+  <script src="app.js"></script>
+</body>
+</html>
